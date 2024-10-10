@@ -1,0 +1,12 @@
+regression_data:
+  n_samples: 100
+  n_features: 5
+  n_digits: 6
+
+multiple_regression_model:
+  fit_intercept: true
+
+logistic_regression_model:
+  penalty: 'l2'
+  solver: 'lbfgs'
+  C: 1.0
