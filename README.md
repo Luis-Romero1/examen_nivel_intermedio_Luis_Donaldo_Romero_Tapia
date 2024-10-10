@@ -113,8 +113,8 @@ docker build -t intermediate_level_exam .
 - Run and interact with the container:
 
 ```
-docker run -it -d -p 8000:8000 intermediate_level_exam
-docker exec -it intermediate_level_exam
+docker run -it -d -p 8000:8000 --name docker_exam intermediate_level_exam
+docker exec -it docker_exam bash
 ```
 
 With this you can interact with the container to run python scrips or run API with uvicorn, if is used API you can send request at http://localhost:8000 locally and inside the container.
