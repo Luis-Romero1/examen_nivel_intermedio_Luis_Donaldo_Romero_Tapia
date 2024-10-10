@@ -74,7 +74,7 @@ You can also found diferent examples for each excercise in "Example_requests.ipy
 - Start the API service:
 
 ```
-uvicorn api_service:app --reload
+uvicorn api_service:app --host 0.0.0.0 --port 8000
 ```
 
 The API will be available at http://localhost:8000 and you can access the interactive documentation at http://localhost:8000/docs or use examples in "Example_requests.ipynb".
