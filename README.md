@@ -46,7 +46,7 @@ Clone this repository and create a virtual environment to install the necessary 
 git clone https://github.com/your-username/intermediate_level_exam
 cd intermediate_level_exam
 python3.12 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 pip install -r requirements.txt
 ```
 
